@@ -6,7 +6,7 @@ from urllib.parse import urlparse, urljoin
 app = Flask(__name__)
 
 def encontrar_ponto_paragrafo(conteudo):
-    limite_caracteres = 4000
+    limite_caracteres = 2000
 
     if len(conteudo) <= limite_caracteres:
         return conteudo
